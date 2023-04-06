@@ -125,6 +125,9 @@ export default function Home() {
               {showTips ? "Ocultar dicas" : "Exibir dicas"}
             </button>
           </div>
+          <div className={styles.footer}>
+          <h4>Made with 💙 by <a href="https://www.linkedin.com/in/giovanni-sena/" target="_blank">Giovanni Lima</a></h4>
+          </div>
         </section>
         <ToastContainer />
       </main>

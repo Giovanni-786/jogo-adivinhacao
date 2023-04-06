@@ -1,38 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <b>Jogo de adivinhação 🤔</b>
+</p>
 
-## Getting Started
+<br />
 
-First, run the development server:
+## Conteúdo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Sobre](#sobre)
+- [Tecnologias](#tecnologias)
+- [Pré-requisitos](#pre-requisitos)
+- [Como usar](#como-usar)
+- [Como contibuir](#como-contribuir)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a id="sobre"></a>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## :bookmark: Sobre
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Jogo de adivinhação criado para mostrar a implementação e funcionamento de um algoritmo de busca binária.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<a id="tecnologias-utilizadas"></a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## :rocket: Tecnologias Utilizadas
 
-## Learn More
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJs](https://nextjs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a id="pre-requisitos"></a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :fire: **Pré-requisitos**
 
-## Deploy on Vercel
+- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<a id="como-usar"></a>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## :zap: Como usar
+
+- Faça um clone desse repositório: 
+`git clone https://github.com/Giovanni-786/jogo-adivinhacao`
+
+- Instale as dependências: `yarn install`
+- Inicie a aplicação:
+    - Rode o comando de inicialização: `yarn dev`
+  
+<a id="como-contribuir"></a>
+
+## :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+---
+
+<h4 align=center>Made with 💙 by <a href="https://www.linkedin.com/in/giovanni-sena/">Giovanni Lima</a></h4>

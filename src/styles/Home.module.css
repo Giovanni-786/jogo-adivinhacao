@@ -46,3 +46,17 @@
   gap: 0.25rem;
 }
 
+.footer{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer a{
+  cursor: pointer;
+  color: var(--primary);
+  transition: ease-in-out 0.3s;
+}
+
+.footer a:hover{
+  filter: opacity(0.7);
+}
