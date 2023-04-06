@@ -93,15 +93,17 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <section className={styles.container}>
-          <h3>
-            {" "}
-            {winGame
-              ? `Parabéns você acertou!!! 🤟🤪 O número misterioso era ${randomNumer}`
-              : "Estou pensando em um número de 1 a 100. Adivinhe qual é ? 🤔"}
-          </h3>
-          {!winGame && (
-            <p>Estou pensando em um número de 1 a 100. Adivinhe qual é ?</p>
-          )}
+          <div className={styles.title}>
+            <h3>
+              {" "}
+              {winGame
+                ? `Parabéns você acertou!!! 🤟🤪 O número misterioso era ${randomNumer}`
+                : "Estou pensando em um número de 1 a 100. Adivinhe qual é ? 🤔"}
+            </h3>
+            {!winGame && (
+              <p>Estou pensando em um número de 1 a 100. Adivinhe qual é ?</p>
+            )}
+          </div>
           <div className={styles.content}>
             <div className={styles.input}>
               <label>Digite um número</label>
