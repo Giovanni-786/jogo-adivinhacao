@@ -1,0 +1,14 @@
+.tips {
+    max-width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid var(--primary);
+}
+
+.tips p {
+    font-size: 1rem !important;
+}

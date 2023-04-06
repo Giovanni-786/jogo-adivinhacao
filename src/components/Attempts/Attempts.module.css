@@ -1,0 +1,24 @@
+.attempts{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary);
+    border-radius: 8px;
+}
+
+.attempts h3{
+    font-size: 1rem;
+}
+
+
+.attempts ul {
+    margin: 10px;
+    
+}
+.attempts ul li {
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin: 4px;
+}
